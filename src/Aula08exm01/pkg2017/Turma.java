@@ -34,7 +34,7 @@ public class Turma {
 
     @Override
     public String toString() {
-        return codigo;
+        return codigo + "(" + this.alunos.size() + " Alunos)";
     }
     
     
